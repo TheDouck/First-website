@@ -1,0 +1,39 @@
+body {
+    background-image: url(wow.png);
+}
+h1 {
+    font-size: 100px;
+    color: lightgreen;
+    text-align: center;
+
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,  
+    -1px 1px 0 #000,  
+    1px 1px 0 #000; /* Outline color and positioning */
+}
+div {
+    background-color: rgba(0,0,0,0.3);
+    outline: 3px solid black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+a {
+    font-size: 40px;
+    color: #0000ee;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,  
+    -1px 1px 0 #000,  
+    1px 1px 0 #000; /* Outline color and positioning */
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
